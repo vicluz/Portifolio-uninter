@@ -1,38 +1,40 @@
 /* Estilos globais */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;  /*define fonte e zera margens */
     margin: 0;
     padding: 0;
 }
 
 nav {
-    background-color: #333;
+    background-color: #333;   /* Cor do fundo barra de navegação e das letras*/
     color: white;
 }
 
+/* Remove a estilização da lista e zera o preenchimento */
 nav ul {
     list-style-type: none;
     padding: 0;
 }
 
+/* Alinha os itens da lista horizontalmente e adiciona espaço à direita */
 nav li {
     display: inline;
     margin-right: 20px;
 }
-
+/* Estiliza os links na barra de navegação */
 nav a {
-    text-decoration: none;
+    text-decoration: none; /* remove sublinhado dos links, e cor do texto dos links*/
     color: white;
 }
 
 /* Estilos para as seções */
 section {
-    padding: 20px;
+    padding: 20px; /* Espaçamento interno em todas as seções */
 }
 
 section h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 24px; /* Tamanho da fonte para os títulos das seções */
+    margin-bottom: 10px; /* Espaçamento inferior para os títulos das seções */
 }
 
 /* Estilos para o formulário de contato */
@@ -49,7 +51,7 @@ textarea {
 }
 
 button {
-    background-color: #333;
+    background-color: #333;  /* cor dos botões na parte de cima */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -72,10 +74,11 @@ button {
 #foto-curriculum {
     max-width: 200px; /* Defina a largura máxima desejada */
     height: auto; /* Isso manterá a proporção da imagem */
+    border-radius: 50%; /*mudar a imagem para redonda */
 }
 
 body {
-    background-color: #3498db; /* Substitua com a cor azul de sua escolha */
+    background-color: #3498db; /* cor de fundo */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
