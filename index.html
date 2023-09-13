@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- titulo -->
-    <title>Victor - Portfólio Pessoal</title>
+    <title>Portfólio Pessoal</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,64 +15,83 @@
             <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
-    <!-- sobre mim -->
+
     <section id="sobre-mim">
         <div class="conteudo-centralizado">
             <img id="foto-curriculum" src="https://media.licdn.com/dms/image/D4D03AQGWWNvhYK617Q/profile-displayphoto-shrink_800_800/0/1669150802942?e=1700092800&v=beta&t=yh2ze81huwEtluQr1GLcbLPVUnv0ylnBqSpJr_wC_B8" alt="Minha Foto de Perfil">
         <h1>Sobre Mim</h1>
-        <p>Profissional com 13 anos de experiencia na logistica em busca de transição de carreira ,adora jogar
-            beber aos finais de semana e sair com os amigos.
+        <p>Profissional com 13 anos de experiencia em logística buscando transição de carreira para a área tecnologica. 
         </p>
         </div>
     </section>
-    <!-- formacao -->
+
     <section id="formacao">
         <h1>Formação Educacional e Cursos</h1>
-        <p>Formado em Logística e cursando Análise e Desenvolvimento de Sistemas.</p>
-        <p>Além disso, concluí diversos cursos na área de programação, incluindo Java, SQL e Python.</p>
+        <p>Formado em Logística pela Universidade Moura Lacerda</p>
+        <p>Cursando Análise e Desenvolvimento de Sistemas pela Universidade UNINTER Centro Universitário Internacional</p>
+        <p>Possuo diversos cursos na área de programação, incluindo Java, SQL e Python.</p>
     </section>
-    
-    <!-- Portifolio  -->
+
     <section id="portfolio">
         <h1>Portfólio</h1>
-        <p>Aqui estão alguns dos meus projetos:</p>
-    
+        <p>Alguns dos meus projetos:</p>
+
         <ul>
             <li>
                 <h2>Criação do Jogo Pong em JavaScript</h2>
-                <p>Desenvolvi o clássico jogo Pong em JavaScript. Você pode acessar o código-fonte no GitHub.</p>
+                <p>Desenvolvimento do clássico jogo Pong em JavaScript. Você pode acessar o código-fonte no GitHub.</p>
                 <a href="https://github.com/vicluz/Pong">Veja o projeto</a>
             </li>
-            
+
             <li>
-                <h2>Criação de Programas em Python (Trabalho de Faculdade)</h2>
-                <p>Trabalhei em diversos projetos em Python como parte do meu trabalho de faculdade. Confira o código-fonte no GitHub.</p>
+                <h2>Criação de Programas em Python (Trabalho Universitário)</h2>
+                <p>Participação em diversos projetos utilizando o  Python como parte de minhas atividades acadêmicas. Confira o código-fonte no GitHub.</p>
                 <a href="https://github.com/vicluz/python">Veja o projeto</a>
             </li>
-    
+
             <li>
-                <h2>Criação de um Sistema de Filmes pela Alura</h2>
-                <p>Participei da criação de um sistema de filmes durante um curso na Alura. Você pode verificar o projeto no GitHub.</p>
+                <h2>Criação de sistema ScreenMatch pela alura</h2>
+                <p>Durante o curso de ScreenMatch participei do desenvolvimento de um projeto. Verifique o projeto no GitHub.</p>
                 <a href="https://github.com/vicluz/screen_match_alura">Veja o projeto</a>
             </li>
         </ul>
     </section>
-    
-
     <section id="contato">
         <h1>Contato</h1>
         <p>Entre em contato comigo ou me siga nas redes sociais:</p>
     
-        <form>
-            <!-- formulário de contato  -->
+        <!-- Container para as badges de redes sociais -->
+        <div class="redes-sociais-container">
+            <a href="https://www.linkedin.com/in/victor-luz-961461132/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8" alt="LinkedIn">
+            </a>
     
-            <!-- Adicione os links para o GitHub e Instagram abaixo -->
-            <p>GitHub: <a href="https://github.com/vicluz" target="_blank">GitHub Profile</a></p>
-            <p>Instagram: <a href="https://www.instagram.com/victor.luz.167/" target="_blank">Instagram Profile</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/victor-luz-961461132/" target="_blank">LinkedIn Profile</a></p>
+            <a href="https://www.facebook.com/victor.luz.167/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/badge/Facebook-000?style=for-the-badge&logo=facebook" alt="Facebook">
+            </a>
+    
+            <a href="https://www.instagram.com/victor.luz.167/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=instagram" alt="Instagram">
+            </a>
+        </div>
+    
+        <form class="formulario-de-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Seu email" required>
+    
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
+    
+            <button type="submit" id="enviar">Enviar</button>
         </form>
-    </section>
     
-
+        <!-- Elemento para mostrar a mensagem de sucesso -->
+        <div id="mensagem-sucesso" style="display: none;">Mensagem enviada com sucesso!</div>
+    </section>
+                       
+        <script src="script.js"></script>
 </body>
 </html>

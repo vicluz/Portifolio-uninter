@@ -78,8 +78,75 @@ button {
 }
 
 body {
-    background-color: #3498db; /* cor de fundo */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-image: url('fundo2.jpg'); /* Substitua 'caminho-para-sua-imagem.jpg' pelo caminho correto para a imagem de plano de fundo */
+    background-size: cover; /* A imagem será dimensionada para cobrir todo o corpo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
 }
+
+
+
+/* Estilos personalizados para o formulário de contato */
+.formulario-de-contato {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-de-contato label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.formulario-de-contato input[type="text"],
+.formulario-de-contato input[type="email"],
+.formulario-de-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.formulario-de-contato textarea {
+    resize: vertical; /* Permite redimensionar verticalmente a área de texto */
+}
+
+.formulario-de-contato button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario-de-contato button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para a mensagem de sucesso */
+#mensagem-sucesso {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilos para centralizar o container de redes sociais */
+.redes-sociais-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza verticalmente */
+    margin-bottom: 20px; /* Espaçamento entre as badges e o formulário */
+}
+
