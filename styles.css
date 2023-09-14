@@ -1,3 +1,5 @@
+                           /*Victor Camilo da Luz RU 4120125*/
+
 /* Estilos globais */
 body {
     font-family: Arial, sans-serif;  /*define fonte e zera margens */
@@ -88,7 +90,7 @@ body {
 
 /* Estilos personalizados para o formulário de contato */
 .formulario-de-contato {
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f4f4f4;
