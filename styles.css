@@ -81,7 +81,7 @@ button {
 }
 
 body {
-    background-image: url('fundo2.jpg'); /* Substitua 'caminho-para-sua-imagem.jpg' pelo caminho correto para a imagem de plano de fundo */
+    background-image: url('fundo2.jpg'); /* imagem de fundo */
     background-size: cover; /* A imagem será dimensionada para cobrir todo o corpo */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
     background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
