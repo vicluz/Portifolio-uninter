@@ -42,23 +42,23 @@ section h1 {
 
 /* Estilos para o formulário de contato */
 form {
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 400px;   /* Define a largura máxima do formulário como 400 pixels */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente na página */
 }
 
 label,
 input,
 textarea {
-    display: block;
-    margin-bottom: 10px;
+    display: block; /* Define os elementos como blocos para que ocupem toda a largura disponível */
+    margin-bottom: 10px; /* Adiciona espaço inferior de 10px entre os elementos */
 }
-
+/* Estiliza os botões do formulário de contato */
 button {
     background-color: #333;  /* cor dos botões na parte de cima */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+    color: white; /* Define a cor do texto dos botões como branco */
+    padding: 10px 20px; /* Adiciona preenchimento interno de 10px na parte superior/inferior e 20px nos lados dos botões */
+    border: none;   /* Remove as bordas dos botões */
+    cursor: pointer;    /* Altera o cursor do mouse para uma mão quando passa sobre os botões */
 }
 
 
@@ -91,33 +91,33 @@ body {
 
 /* Estilos personalizados para o formulário de contato */
 .formulario-de-contato {
-    width: 60%;
-    margin: auto;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:justify;
-    border-radius: 10px;
+    width: 60%; /* Define a largura do formulário como 60% da largura do contêiner pai */
+    margin: auto; /* Centraliza horizontalmente o formulário */
+    font-size: medium; /* Define o tamanho da fonte média */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto */
+    text-align:justify; /* Justifica o texto dentro do formulário */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao formulário */
 }
 
 .formulario-de-contato label {
-    width: 60%;
-    margin: auto;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:justify;
-    border-radius: 10px;
+    width: 60%; /* Define a largura das etiquetas como 60% da largura*/
+    margin: auto; /* Centraliza horizontalmente */
+    font-size: medium; /* Define o tamanho da fonte média para as etiquetas */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte */
+    text-align:justify; /* Justifica o texto das etiquetas */
+    border-radius: 10px; /* Adiciona bordas arredondadas às etiquetas */
 }
-
+/* Permite redimensionar verticalmente a área de texto */
 .formulario-de-contato input[type="text"],
 .formulario-de-contato input[type="email"],
 .formulario-de-contato textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px; /* Adiciona um preenchimento interno de 10px */
+    margin-bottom: 15px; /* Define um espaço inferior de 15px entre os campos */
+    border: 1px solid #ccc; /* Adiciona uma borda de 1px sólida com uma cor cinza */
+    border-radius: 3px; /* Adiciona bordas arredondadas aos campos de entrada */
+    font-size: 16px; /* Define o tamanho da fonte para os campos de entrada */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto dos campos de entrada */
 }
 
 .formulario-de-contato textarea {
@@ -125,34 +125,34 @@ body {
 }
 
 .formulario-de-contato button[type="submit"] {
-    background-color: #3498db;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    font-size: 16px;
-    cursor: pointer;
+    background-color: #3498db; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão como branco */
+    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+    border: none;   /* Remove a borda do botão */
+    border-radius: 3px; /* Adiciona bordas arredondadas ao botão */
+    font-size: 16px; /* Define o tamanho da fonte para o texto do botão */
+    cursor: pointer; /* Muda o cursor para uma mão quando o mouse passa sobre o botão */
 }
-
+/* Define a cor de fundo quando o mouse passa sobre o botão */
 .formulario-de-contato button[type="submit"]:hover {
     background-color: #2980b9;
 }
 
 /* Estilos para a mensagem de sucesso */
 #mensagem-sucesso {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4CAF50; /* Define a cor de fundo da mensagem de sucesso */
+    color: white; /* Define a cor do texto da mensagem de sucesso como branco */
+    padding: 10px; /* Adiciona preenchimento interno à mensagem de sucesso */
+    text-align: center; /* Centraliza o texto dentro da mensagem de sucesso */
+    border-radius: 5px; /* Adiciona bordas arredondadas à mensagem de sucesso */
+    margin-top: 10px;   /* Define um espaço superior de 10px para afastar a mensagem de outros elementos */
+    font-family: Arial, Helvetica, sans-serif;  /* Define a fonte do texto da mensagem de sucesso */
 }
 
 /* Estilos para centralizar o container de redes sociais */
 .redes-sociais-container {
-    display: flex;
-    flex-direction: column;
+    display: flex;  /* Define a exibição como flexível para centralizar verticalmente */
+    flex-direction: column; /* Empilha os elementos verticalmente */
     align-items: center; /* Centraliza verticalmente */
     margin-bottom: 20px; /* Espaçamento entre as badges e o formulário */
 }
